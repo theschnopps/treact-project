@@ -301,3 +301,24 @@ button:active {
 .text__container {
     text-align: left;
 }
+
+.work {
+    display: flex;
+    align-items: center;
+}
+
+.quality {
+    text-align: left;
+}
+
+.quality__para {
+    width: 50%;
+}
+
+.quality__img{
+    width: 50%;
+}
+
+.quality__work {
+    text-align: left;
+}
