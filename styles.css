@@ -71,6 +71,7 @@ a:hover {
 
 ul {
     display: flex;
+    list-style: none;
 }
 
 li {
@@ -173,13 +174,11 @@ h1 {
     font-size: 56px;
     color: #1a202c;
     margin-bottom: 24px;
-    text-align: center;
 }
 
 h2 {
     font-size: 32px;
     margin-bottom: 32px;
-    text-align: center;
 }
 
 button {
@@ -251,6 +250,24 @@ button:active {
     margin: 32px 0;
 }
 
+.email__button {
+    display: flex;
+    flex-direction: row;
+}
+
+.email__button:focus-within {
+    outline: none;
+}
+
+input {
+    flex-grow: 2;
+}
+
+input:focus {
+    outline: none;
+}
+
+
 .email__button--border {
     width: 100%;
     border-radius: 999px;
@@ -275,7 +292,6 @@ button:active {
 .service {
     display: flex;
     width: calc(100% / 3);
-    margin: 0 16px;
     padding: 32px 8px;
 }
 
@@ -321,4 +337,44 @@ button:active {
 
 .quality__work {
     text-align: left;
+}
+
+.steps__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.steps__img {
+    width: 50%;
+}
+
+.steps__para {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.steps__steps{
+    display: flex;
+}
+
+.steps__number {
+    color: #cbd5e0;
+    font-size: 36px;
+}
+
+.steps__list {
+    display: flex;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.steps__para--para {
+    margin: 0 0 0 24px;
+
 }
