@@ -23,6 +23,8 @@ img {
 
 p {
    line-height: 1.5;
+   font-size: 18px;
+   margin: 16px 0 0;
 }
 
 a {
@@ -344,9 +346,13 @@ input:focus {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    padding: 32px 0;
 }
 
 .steps__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
 }
 
@@ -355,10 +361,12 @@ input:focus {
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding: 0 32px;
 }
 
 .steps__steps{
     display: flex;
+    margin: 32px 0;
 }
 
 .steps__number {
@@ -377,4 +385,48 @@ h6 {
 .steps__para--para {
     margin: 0 0 0 24px;
 
+}
+
+/* PLANS */
+
+.three__plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three__plans--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three__plans--header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.duration {
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.three__plans--features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
