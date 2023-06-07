@@ -144,12 +144,6 @@ li {
     color: white;
 }
 
-.btn__menu--close {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    color: white;
-}
 
 header {
     height: calc(100vh - 80px);
@@ -255,6 +249,13 @@ button:active {
 .email__button {
     display: flex;
     flex-direction: row;
+    position: relative;
+    height: 52px;
+}
+.btn__link {
+    position: absolute;
+    right: 8px;
+    transform: translateY(10%);
 }
 
 .email__button:focus-within {
@@ -273,8 +274,7 @@ input:focus {
 .email__button--border {
     width: 100%;
     border-radius: 999px;
-    border-width: 2px;
-    position: relative;
+    border-width: 1px;
 }
 
 /* FEATURES */
@@ -424,9 +424,13 @@ h6 {
     color: #a0aec0;
 }
 
+.three__plans--row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .three__plans--features {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
